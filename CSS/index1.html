@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>three</title>
+<style>
+    .flex div{
+        border:2px solid black ;
+        padding: 1%;
+        margin:1%
+        font-size: 120px;
+        background-color:rgba(0, 0, 255, 0.239);
+        box-shadow: 2px 4px 6px  chocolate;
+        text-shadow: 2px 4px 6px  darkblue;
+
+    }
+    .flex{
+        display:flex;
+        flex-direction: row;                /*row ||row reverse||columns||coloumn reverse */
+        justify-content: space-between ;    /*flex start||flex end||center||space around||space between */
+        flex-wrap: wrap;                    /*wrap||wrap reverse|| no wrap*/
+        color: ivory;
+    }
+</style>
+</head>
+
+<body>
+    <div class="flex">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+    </div>
+</body>
+</html>
